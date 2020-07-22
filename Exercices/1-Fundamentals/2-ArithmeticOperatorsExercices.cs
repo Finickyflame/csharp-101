@@ -4,7 +4,7 @@ namespace CSharp101.Exercices.Fundamentals
 {
     public class ArithmeticOperatorsExercices
     {
-        [Fact]
+        [Theory]
         #region InlineData
         [InlineData(1, 2, 3)]
         [InlineData(2, 1, 3)]
@@ -21,7 +21,7 @@ namespace CSharp101.Exercices.Fundamentals
             #endregion
         }
 
-        [Fact]
+        [Theory]
         #region InlineData
         [InlineData(4, 2, 3)]
         [InlineData(3, 1, 2)]
@@ -38,7 +38,7 @@ namespace CSharp101.Exercices.Fundamentals
             #endregion
         }
         
-        [Fact]
+        [Theory]
         #region InlineData
         [InlineData(2, 2, 4)]
         [InlineData(3, 1, 3)]
@@ -55,7 +55,7 @@ namespace CSharp101.Exercices.Fundamentals
             #endregion
         }
         
-        [Fact]
+        [Theory]
         #region InlineData
         [InlineData(4, 2, 2)]
         [InlineData(3, 1, 3)]
